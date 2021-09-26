@@ -17,7 +17,7 @@ console.log("The " + team + " are " + name + "'s favorite Quidditch team");
 
 // YOU DO: Read the next few lines of code...
 var numberOfCreatures = 7;
-var creatures = "unicorns";
+var creatures = "Unicorns";
 
 console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 

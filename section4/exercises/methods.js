@@ -23,7 +23,7 @@ var lunchOrder = {
   complete: function() {
     console.log("Your order is complete!");
   }
-}
+};
 
 console.log(lunchOrder.dish);
 console.log(lunchOrder.beverage);

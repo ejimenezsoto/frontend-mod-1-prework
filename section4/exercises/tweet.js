@@ -10,23 +10,23 @@ tweet object instances _behave_ as expected.
 
 class Tweet {
   constructor(author,content,timeStamp,numberOfLikes,comments) {
-    this.author = author
-    this.content = content
-    this.timeStamp = timeStamp
-    this.numberOfLikes = numberOfLikes
-    this.comments = comments
+    this.author = author;
+    this.content = content;
+    this.timeStamp = timeStamp;
+    this.numberOfLikes = numberOfLikes;
+    this.comments = comments;
   }
 
   likepost(){
-    this.numberOfLikes = this.numberOfLikes + 1
+    this.numberOfLikes++;
   }
   addComment(string){
-    this.comments.push(string)
+    this.comments.push(string);
   }
 
 }
 
-var myTweet = new Tweet("Enzo Jimenez-Soto","Why is the sky blue?", "September 11, 2021", 0,[])
+var myTweet = new Tweet("Enzo Jimenez-Soto","Why is the sky blue?", "September 11, 2021", 0,[]);
 console.log(myTweet);
 myTweet.likepost();
 myTweet.likepost();

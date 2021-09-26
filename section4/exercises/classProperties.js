@@ -128,8 +128,8 @@ class Snack {
     this.isHealthy = isHealthy
   }
 }
-var iceCream = new Snack("Half-Baked","Medium",false)
-var salad = new Snack("Cesar Salad", "Small", true)
+var iceCream = new Snack("Half-Baked","Medium",false);
+var salad = new Snack("Cesar Salad", "Small", true);
 console.log(iceCream);
 console.log(salad);
 
@@ -141,9 +141,9 @@ class Shirt {
     this.color = color
     this.isGraphic = isGraphic
   }
-}
+};
 
-var whiteT = new Shirt("Large","White",false)
-var blackGraphicT = new Shirt("Large","Black",true)
+var whiteT = new Shirt("Large","White",false);
+var blackGraphicT = new Shirt("Large","Black",true);
 console.log(whiteT);
 console.log(blackGraphicT);

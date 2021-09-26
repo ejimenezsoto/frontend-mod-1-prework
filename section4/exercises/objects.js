@@ -45,19 +45,19 @@ console.log(zoo.lions);
 
 // Add an animal to the zoo Object, and log the updated Object.
 
-zoo.penguins = 5
+zoo.penguins = 5;
 
 console.log(zoo);
 
 
 // Change the value for at least one of your animal keys, and log the updated Object.
 
-zoo.lions = 69
+zoo.lions = 69;
 
 
 // Add another animal to the zoo Object, and log the updated Object.
 
-zoo.parrots = 12
+zoo.parrots = 12;
 console.log(zoo);
 
 
@@ -81,7 +81,7 @@ var email = {
   timeStamp: "1:26 September 11, 2021",
   subject: "Hodl",
   body: "HOLD"
-}
+};
 console.log(email);
 
 //-------------------
@@ -118,7 +118,7 @@ var posts = [
     numberLikes: 13,
     comments: []
   }
-]
+];
 
 console.log(posts);
 console.log(posts[0]);
@@ -156,6 +156,6 @@ var inbox = [
     subject: "Hodl",
     body: "HOLD"
   }
-]
+];
 
 console.log(inbox);
